@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client'
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Section from "./components/landing_page/Section";

@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Heading from './Heading'
 import SubHeading from './SubHeading'
@@ -35,7 +36,7 @@ const Section = () => {
         <div className='p-6 w-full'>
             <Heading text={"Why Choose US ?"} />
             <SubHeading text={"Our platform delivers everything you need to create, manage, and grow successful events"} />
-            <div className='w-full p-6 flex gap-6 justify-center flex-wrap'>
+            <div className='w-full p-2 md:p-6 flex gap-6 justify-center flex-wrap'>
                 {props.map((value, index) => {
                     return <PropCards card={value} key={index} />
                 })}

@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Heading from './Heading'
 import SubHeading from './SubHeading'
@@ -36,7 +37,7 @@ const Section2 = () => {
       <Heading text="How It Works" />
       <SubHeading text="Our streamlined process makes event management and attendance a breeze" />
       {steps.map((step, index) => (
-        <div key={index} className={` mt-7 flex justify-evenly items-center w-full ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} `}>
+        <div key={index} className={`px-2 mt-7 flex md:justify-evenly gap-2 items-center w-full flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
           <div className="py-5 px-8 rounded-full flex items-center justify-center" style={{ background: 'linear-gradient(136deg, #67B0FB 28.67%, #96C8FB 103.71%)' }}>
             <h1 className="text-6xl font-bold text-white">{step.step}</h1>
           </div>
