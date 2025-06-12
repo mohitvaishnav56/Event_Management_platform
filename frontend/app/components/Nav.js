@@ -23,7 +23,7 @@ const Nav = () => {
         },
     ]
     return (
-        <div className='min-w-full flex items-center justify-between bg-white p-2 z-20'>
+        <div className='min-w-full flex items-center justify-between bg-white p-2 z-20 shadow'>
             <div className='logo h-10 w-10 bg-black text-white flex items-center justify-center font-bold' >
                 E
             </div>

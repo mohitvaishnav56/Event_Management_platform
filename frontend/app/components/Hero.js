@@ -29,7 +29,7 @@ const Hero = () => {
         <div id='showcase-cards' className='w-full min-h-[80%] relative px-2 md:px-5'>
           <ShowCards
             imageUrl="https://plus.unsplash.com/premium_photo-1663089174939-5870e2e8d62e?w=500&auto=format&fit=crop&q=60"
-            className="origin-bottom-left top-1/2 left-[60%] -translate-x-[60%] -rotate-[-10deg] z-10"
+            className="origin-bottom-left top-1/2 left-[70%] -translate-x-[60%] -rotate-[-10deg] z-10"
           />
           <ShowCards
             imageUrl="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=500&auto=format&fit=crop&q=60"
